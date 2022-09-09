@@ -84,7 +84,7 @@ class App extends React.Component<any, AppState> {
   heightChangedHandle(height: number, index: number) {
     this.state.posts[index].height = height;
     // @ts-ignore
-    this.listRef.current.resetAfterIndex(0);
+    this.listRef.current.resetAfterIndex(index);
   }
 
   getItemSize(index: number): number {
