@@ -1,0 +1,34 @@
+.App {
+    border-bottom: 1px solid #ccc;
+}
+
+.left, .content {
+    display: block;
+    height: 600px;
+}
+
+.left {
+    width: 399px;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+
+.content {
+    float: right;
+    width: calc(100% - 400px);
+    background: red;
+}
+
+.container {
+    padding: 10px;
+}
+
+
+.item-list {
+
+}
+
+.clear {
+    clear: both;
+}
+

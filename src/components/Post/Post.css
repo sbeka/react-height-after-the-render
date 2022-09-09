@@ -1,0 +1,47 @@
+.item-wrap {
+    cursor: pointer;
+}
+
+.item-wrap:hover {
+    border: 1px solid #8BACFC;
+    background: #dae4ff;
+}
+
+.item-wrap {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+}
+
+.item-wrap img {
+    width: 48px;
+}
+
+.item-data {
+    padding-left: 10px;
+    position: relative;
+}
+
+.item-data h4 {
+    padding: 0;
+    margin: 0 0 3px 0;
+    font-size: 18px;
+}
+
+.item-data .price {
+    position: absolute;
+    right: 0;
+    color: #585E66;
+    font-weight: 600;
+}
+
+.item-data .type {
+    background: #70D25F;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+}
